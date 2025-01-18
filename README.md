@@ -1,6 +1,6 @@
-# Tauri + React + Typescript
+# calc-tauri
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A calculator app I created for practicing with [Tauri](https://v2.tauri.app/).
 
 ## Recommended IDE Setup
 
