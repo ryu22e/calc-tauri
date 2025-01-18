@@ -13,9 +13,10 @@ const App = () => {
     setInput('');
   };
 
-  const handleCalculate = () => {
+  const handleCalculate = async () => {
     try {
-      setInput(eval(input).toString());
+      const result: string = await invoke('evaluate_expression', { expression: input });
+      setInput(result);
     } catch {
       setInput('Error');
     }
